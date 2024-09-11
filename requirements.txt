@@ -1,0 +1,42 @@
+
+Sono felice di annunciare il lancio del mio nuovo Password Manager,  interamente con Python. Questo strumento ti aiuterà a gestire in modo sicuro le tue password e a tenere traccia delle tue credenziali in modo semplice e sicuro
+
+
+
+
+ # Password Manager
+
+## Installazione
+
+1. Prima di tutto, assicurati di avere Python installato. Se non lo hai già fatto, scaricalo da python.org e installalo su Windows 11.
+
+Durante l'installazione di Python, assicurati di selezionare l'opzione "Add Python to PATH". Questa opzione è cruciale per far sì che i comandi come pip siano riconosciuti in Windows.
+
+Per verificare se Python è stato aggiunto al PATH, segui questi passaggi:
+
+Premi Windows + R, digita cmd e premi Invio per aprire il prompt dei comandi.
+Digita python --version e premi Invio
+
+
+2.  Installa la libreria cryptography
+  pip install cryptography
+
+
+3. Installa le dipendenze eseguendo:
+ pip install -r requirements.txt
+
+
+
+4. Esegui il file di setup per generare la chiave crittografica, impostare la password di amministratore :
+   python setup.py da prompt dei comandi ( tasto windows +r ) o clicca direttamente nel file setup.py
+   
+5. Esegui il programma con:
+   python password_manager.pyw da prompt o clicca direttamente sul file
+
+## Utilizzo
+
+- Al primo avvio, imposta la password di amministratore.
+- Utilizza il programma per aggiungere, visualizzare, modificare e cancellare servizi e password , effettuare il backup ed il ripristino.
+
+
+
